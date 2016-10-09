@@ -1,8 +1,8 @@
 {
   "name": "@mitchallen/factory-base",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.1",
+  "description": "generic base factory",
+  "main": "index-factory.js",
   "scripts": {
     "//": "To use: npm start (useful if not a module)",
     "start": "node index.js",
