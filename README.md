@@ -1,7 +1,7 @@
 
 @mitchallen/factory-base
 ==
-PUT DESCRIPTION HERE
+Factory base class 
 --
 * * *
 ## Installation
@@ -14,6 +14,11 @@ You must use __npm__ __2.7.0__ or higher because of the scoped package name.
 * * *
 
 ## Usage
+
+	var _factory = require("@mitchallen/factory-base");
+	var obj = _factory.create({});
+    should.exist(obj);
+    obj.health().should.eql("OK")
 
 ## Testing
 
